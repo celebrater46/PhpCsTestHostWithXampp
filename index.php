@@ -2,11 +2,14 @@
 ini_set( 'display_errors', 1 );
 error_reporting(E_ALL);
 
+//$type = "test";
 if(isset($_POST['type'])) $type = $_POST['type'];
 if(isset($_POST['data'])) $data = $_POST['data'];
 
 if(isset($type))
 {
+//    $data = "testdata";
+
     $db_host = "localhost";
     $db_user = "root";
     $db_password = "";
